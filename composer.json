@@ -1,0 +1,31 @@
+{
+    "name": "berecont/contao-contentslider-extended-bundle",
+    "description": "Content-Slider extended for Contao (SwiperJS extras + multi-instance-safe init).",
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "contao-bundle",
+    "authors": [
+        {
+            "name": "Bernhard Renner",
+            "email": "info@berecont.at",
+            "homepage": "https://berecont.at",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@berecont.at"
+    },
+    "require": {
+        "php": "^8.2 || ^8.3 || ^8.4",
+        "contao/manager-bundle": "^5.3",
+        "contao/core-bundle": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Berecont\\ContentSliderExtendedBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Berecont\\ContentSliderExtendedBundle\\ContaoManager\\Plugin"
+    }
+}

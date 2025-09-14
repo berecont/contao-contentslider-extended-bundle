@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file source-language="en" target-language="de" datatype="plaintext" original="tl_content">
+    <body>
+      <trans-unit id="tl_content.sliderStopAutoplay.0">
+        <source>Pause autoplay on hover</source>
+        <target>Autoplay bei Hover pausieren</target>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderStopAutoplay.1">
+        <source>If autoplay is active, pause when the mouse hovers the slider.</source>
+        <target>Ist Autoplay aktiv, pausiert der Slider bei Mouse-Over.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderInitClass.0">
+        <source>Additional Swiper class</source>
+        <target>Zusätzliche Swiper-Klasse</target>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderInitClass.1">
+        <source>For targeting a single slider instance (e.g., "mySwiperA").</source>
+        <target>Zur gezielten Initialisierung/Styling einzelner Slider-Instanzen (z. B. „mySwiperA“).</target>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderHideNavigation.0">
+        <source>Hide navigation</source>
+        <target>Navigation ausblenden</target>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderHideNavigation.1">
+        <source>Do not render prev/next buttons.</source>
+        <target>Prev-/Next-Buttons nicht ausgeben.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderHidePagination.0">
+        <source>Hide pagination</source>
+        <target>Pagination ausblenden</target>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderHidePagination.1">
+        <source>Do not render pagination bullets.</source>
+        <target>Paginierungspunkte nicht ausgeben.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderBreakpoints.0">
+        <source>Breakpoints (JSON)</source>
+        <target>Breakpoints (JSON)</target>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderBreakpoints.1">
+        <source>Plain JSON object for Swiper breakpoints.
+Example:
+{
+  "480":  { "slidesPerView": 1, "spaceBetween": 8 },
+  "768":  { "slidesPerView": 2, "spaceBetween": 16 },
+  "1024": { "slidesPerView": 3, "spaceBetween": 24 }
+}</source>
+        <target>Reines JSON-Objekt für Swiper-Breakpoints.
+Beispiel:
+{
+  "480":  { "slidesPerView": 1, "spaceBetween": 8 },
+  "768":  { "slidesPerView": 2, "spaceBetween": 16 },
+  "1024": { "slidesPerView": 3, "spaceBetween": 24 }
+}</target>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderCustomOptions.0">
+        <source>Additional parameters (JS fragment)</source>
+        <target>Zusätzliche Parameter (JS-Fragment)</target>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderCustomOptions.1">
+        <source>Any Swiper options as a JS fragment or JSON – merged into initialization.
+Example:
+spaceBetween: 24,
+effect: 'fade',
+fadeEffect: { crossFade: true }</source>
+        <target>Beliebige Swiper-Optionen als JS-Fragment oder JSON – werden in die Initialisierung gemerged.
+Beispiel:
+spaceBetween: 24,
+effect: 'fade',
+fadeEffect: { crossFade: true }</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file source-language="en" datatype="plaintext" original="tl_content">
+    <body>
+      <trans-unit id="tl_content.sliderStopAutoplay.0">
+        <source>Pause autoplay on hover</source>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderStopAutoplay.1">
+        <source>If autoplay is active, pause when the mouse hovers the slider.</source>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderInitClass.0">
+        <source>Additional Swiper class</source>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderInitClass.1">
+        <source>For targeting a single slider instance (e.g., "mySwiperA").</source>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderHideNavigation.0">
+        <source>Hide navigation</source>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderHideNavigation.1">
+        <source>Do not render prev/next buttons.</source>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderHidePagination.0">
+        <source>Hide pagination</source>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderHidePagination.1">
+        <source>Do not render pagination bullets.</source>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderBreakpoints.0">
+        <source>Breakpoints (JSON)</source>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderBreakpoints.1">
+        <source>Plain JSON object for Swiper breakpoints.
+Example:
+{
+  "480":  { "slidesPerView": 1, "spaceBetween": 8 },
+  "768":  { "slidesPerView": 2, "spaceBetween": 16 },
+  "1024": { "slidesPerView": 3, "spaceBetween": 24 }
+}</source>
+      </trans-unit>
+
+      <trans-unit id="tl_content.sliderCustomOptions.0">
+        <source>Additional parameters (JS fragment)</source>
+      </trans-unit>
+      <trans-unit id="tl_content.sliderCustomOptions.1">
+        <source>Any Swiper options as a JS fragment or JSON – merged into initialization.
+Example:
+spaceBetween: 24,
+effect: 'fade',
+fadeEffect: { crossFade: true }</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
