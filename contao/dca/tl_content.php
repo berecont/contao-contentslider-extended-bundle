@@ -7,50 +7,6 @@ use Contao\Database;
 use Contao\Input;
 
 // ---------------------------
-// Vorauswahl des Templates /slider_extended.html.twig
-// ---------------------------
-$GLOBALS['TL_DCA']['tl_content']['config']['onload_callback'][] = static function (DataContainer $dc): void {
-    // Den aktuellen CE-Typ zuverlässig ermitteln (neu, edit, Typ-Wechsel)
-    $type = null;
-
-    if ($dc->activeRecord && $dc->activeRecord->type) {
-        $type = (string) $dc->activeRecord->type;
-    } elseif (Input::get('type')) {
-        $type = (string) Input::get('type');
-    } elseif ($dc->id) {
-        $type = (string) Database::getInstance()
-            ->prepare('SELECT type FROM tl_content WHERE id=?')
-            ->limit(1)
-            ->execute($dc->id)
-            ->type
-        ;
-    }
-
-    if ($type !== 'swiper') {
-        return;
-    }
-
-    // 1) Default setzen
-    $GLOBALS['TL_DCA']['tl_content']['fields']['customTpl']['default'] = 'content_element/swiper/slider_extended';
-
-    // 2) Sichtbar im Formular auch wirklich vorauswählen
-    $GLOBALS['TL_DCA']['tl_content']['fields']['customTpl']['eval']['load_default'] = true;
-
-    // Optional (strenger): keine leere Option erlauben, dann ist immer etwas gewählt
-    // $GLOBALS['TL_DCA']['tl_content']['fields']['customTpl']['eval']['includeBlankOption'] = false;
-};
-
-$GLOBALS['TL_DCA']['tl_content']['fields']['customTpl']['load_callback'][] =
-    static function ($value, DataContainer $dc) {
-        if ($value || !$dc->activeRecord || (string) $dc->activeRecord->type !== 'swiper') {
-            return $value;
-        }
-        return 'content_element/swiper/slider_extended';
-};
-
-
-
-// ---------------------------
 // Felder hinzufügen
 // ---------------------------
 $GLOBALS['TL_DCA']['tl_content']['fields']['sliderStopAutoplay'] = [
