@@ -38,5 +38,5 @@ grabCursor: true,
 Das Core-Element `Content-Slider` hat den Nachteil, dass bei Verwendung mehrerer Slider-Elementen (mit eigenen Anpassungen) pro Seite, die Initialisierung nicht mehr korrekt abläuft und die Slider nicht mehr korrekt funktionieren.  
 Im Template `slider_extended.html.twig` wurde dies berücksichtigt, sodass auch zwei oder mehr dieser Content-Slider Elemente, mit Anpassungen, pro Seite verwendet werden können.  
 ### Beispiele  
-![contentslider-extended-01](https://github.com/user-attachments/assets/e4859ee3-321d-45a2-b352-42b97cd9dae0)
-![contentslider-extended-02](https://github.com/user-attachments/assets/d937b556-bb4c-4d4b-b716-de5b8c29fe84)
+![contentslider-extended-01](https://github.com/user-attachments/assets/928a7f9d-3b79-4c30-9678-2f8c1be321a4)  
+![contentslider-extended-02](https://github.com/user-attachments/assets/a6a60ac1-8967-4e70-848a-f091e3b66c43)
