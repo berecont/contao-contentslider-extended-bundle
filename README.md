@@ -34,8 +34,6 @@ cubeEffect: {
 grabCursor: true,
 ```
 ## Template  
-### Template-Einstellungen
-Die Erweiterung bringt das angepasste Twig-Template `content_element/swiper/slider_extended` mit. Es wird beim Erstellen des Inhaltselementes mit Elementtyp `Content-Slider` vorausgewählt.  
 ### Problematik und Lösung  
 Das Core-Element `Content-Slider` hat den Nachteil, dass bei Verwendung mehrerer Slider-Elementen (mit eigenen Anpassungen) pro Seite, die Initialisierung nicht mehr korrekt abläuft und die Slider nicht mehr korrekt funktionieren.  
 Im Template `slider_extended.html.twig` wurde dies berücksichtigt, sodass auch zwei oder mehr dieser Content-Slider Elemente, mit Anpassungen, pro Seite verwendet werden können.  
